@@ -1,0 +1,4 @@
+version: '3'
+services:
+  slapd:
+    image: qnib/plain-openldap-qnibinc@sha256:10321d39fd4e482b1bed28ae9e1331f63db608a0de3bf0588e1fd599a1495568

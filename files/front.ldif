@@ -1,0 +1,30 @@
+dn: dc=qnib,dc=inc
+dc: qnib
+objectClass: dcObject
+objectClass: organizationalUnit
+ou: qnib
+
+dn: ou=UserGroups,dc=qnib,dc=inc
+objectClass: organizationalUnit
+ou: UserGroups
+
+dn: ou=Users,dc=qnib,dc=inc
+objectClass: organizationalUnit
+ou: Users
+
+dn: ou=Admins,dc=qnib,dc=inc
+objectClass: organizationalUnit
+ou: Admins
+
+dn: ou=Roles,dc=qnib,dc=inc
+objectClass: organizationalUnit
+ou: Roles
+
+dn: ou=Projects,dc=qnib,dc=inc
+objectClass: organizationalUnit
+ou: Projects
+
+dn: cn=9fe2ff9ee4384b1894a90878d3e92bab,ou=Roles,dc=qnib,dc=inc
+objectClass: organizationalRole
+ou: _member_
+cn: 9fe2ff9ee4384b1894a90878d3e92bab

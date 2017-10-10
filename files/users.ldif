@@ -1,0 +1,19 @@
+dn: cn=Alice Operation,ou=Admins,dc=qnib,dc=inc
+objectclass: inetOrgPerson
+cn: Alice Operation
+sn: Alice
+uid: aops
+userpassword: aops
+mail: alice.ops@qnib.inc
+description: Administrator
+ou: Ops
+
+dn: cn=Bob Developer,ou=Users,dc=qnib,dc=inc
+objectclass: inetOrgPerson
+cn: Bob Developer
+sn: Bob
+uid: bdev
+userpassword: bdev
+mail: bob.developer@qnib.inc
+description: frontend developer
+ou: Dev
