@@ -8,6 +8,16 @@ mail: alice.ops@qnib.inc
 description: Administrator
 ou: Ops
 
+dn: cn=Admin,ou=Admins,dc=qnib,dc=inc
+objectclass: inetOrgPerson
+cn: Admin
+sn: Admin
+uid: admin
+userpassword: admin
+mail: admin@qnib.inc
+description: Non-interactive Administrator
+ou: NonInteractiveAdmins
+
 dn: cn=Bob Developer,ou=Users,dc=qnib,dc=inc
 objectclass: inetOrgPerson
 cn: Bob Developer
@@ -17,3 +27,13 @@ userpassword: bdev
 mail: bob.developer@qnib.inc
 description: frontend developer
 ou: Dev
+
+dn: cn=User,ou=Users,dc=qnib,dc=inc
+objectclass: inetOrgPerson
+cn: User
+sn: User
+uid: user
+userpassword: user
+mail: user@qnib.inc
+description: Non-interactive User
+ou: NonInteractiveUsers
