@@ -2,7 +2,7 @@
 # it is based on https://github.com/rackerlabs/dockerstack/blob/master/keystone/openldap/Dockerfile
 # also the files/more.ldif from http://www.zytrax.com/books/ldap/ch14/#ldapsearch
 ARG DOCKER_REGISTRY=docker.io
-FROM ${DOCKER_REGISTRY}/qnib/plain-openldap@sha256:ed3bcf8045dbc22207d7b521b446cd2b5f035e39ee02bacedb0f75b90f967ec7
+FROM ${DOCKER_REGISTRY}/qnib/plain-openldap:2.4.21@sha256:4739edebc326064a24bf5c7a1be577bdf5850881bd8154039fb22b925587cf8f
 
 COPY files /ldap
 
